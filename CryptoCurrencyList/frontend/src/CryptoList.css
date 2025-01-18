@@ -1,0 +1,95 @@
+.crypto-list {
+  padding: 20px;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.data-table-wrapper {
+  margin-top: 20px;
+}
+
+.react-data-table-component {
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.react-data-table-component .rdt_Table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.react-data-table-component th {
+  background-color: #f1f1f1;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.react-data-table-component td {
+  padding: 12px;
+  text-align: left;
+  color: #555;
+}
+
+.react-data-table-component tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.react-data-table-component tr:hover {
+  background-color: #f1f1f1;
+}
+
+.react-data-table-component .rdt_Pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 200px;
+  }
+
+  .search-bar button {
+    font-size: 0.9rem;
+  }
+}

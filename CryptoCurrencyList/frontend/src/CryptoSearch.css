@@ -1,0 +1,87 @@
+.crypto-search {
+  padding: 20px;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.coin-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coin-details img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.coin-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.coin-details p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.coin-details p:first-child {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.coin-details p:nth-child(3) {
+  color: #28a745; /* Green for positive percentage */
+}
+
+.coin-details p:nth-child(4) {
+  color: #dc3545; /* Red for negative percentage */
+}
+
+@media (max-width: 768px) {
+  .coin-details {
+    width: 90%;
+  }
+
+  .coin-details img {
+    width: 120px;
+    height: 120px;
+  }
+}
